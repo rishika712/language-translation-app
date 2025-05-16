@@ -48,11 +48,11 @@ This will generate a trained model and save tokenized sequences as training_data
 python LangTransGui.py
 This will launch a simple Tkinter GUI where you can input English sentences and get real-time French translations.
 
-### 🧠 How It Works
+## 🧠 How It Works
 
 Data Preparation: The dataset (eng-french.txt) contains English-French sentence pairs. Sentences are cleaned, tokenized, and padded.
 
-### Model Architecture:
+## Model Architecture:
 
 Encoder: LSTM that processes the input English sentence.
 
@@ -62,7 +62,7 @@ Training: Uses teacher forcing for efficient learning.
 
 Inference: During prediction, the trained decoder predicts one word at a time until it reaches an end-of-sequence token.
 
-### 📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
